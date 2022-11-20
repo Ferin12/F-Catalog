@@ -1,0 +1,15 @@
+:root {
+    --elem_color: #4527a0;
+    --text_color: #484848;
+    --old_price: #ff0000;
+    --border_color: #b5b5b5;
+    --light-gray: #f0f0f0;
+    --disc_stic: #ff0000;
+    --active_item_color: #fff;
+    --more_link_color: #4527a0;
+    --more_link_border_color: #4527a0;
+
+    /* Stock */
+    --label_stock: #048100;
+    --label_not_stock: #ff0000;
+}

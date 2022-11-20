@@ -1,0 +1,55 @@
+.mainsearch {
+    display: block;
+    margin: 20px auto;
+  }
+  
+  #msearchBg1232 {
+    background-color: rgba(44, 44, 44, 0.486);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999999999;
+  }
+  
+  .searchWrap {
+    position: absolute;
+    width: 100%;
+    left: 0;
+  }
+  
+  /*
+  #appPrsearch {
+    position: absolute;
+    z-index: 999999999999;
+    top: 30px;
+    width: 90%;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  */
+  
+  #appPrsearch {
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    /*bottom: 0;*/
+    right: 0;
+    z-index: 222;
+    width: 90%;
+    /*height: 100%;*/
+    z-index: 999999999999;
+    /* transform: translate(-50%, 0); */
+  }
+  
+  
+  /* RESPONSIVE */
+  @media (max-width: 768px) {
+    #appPrsearch {
+      top: 0;
+      width: 100%;
+    }
+  }
